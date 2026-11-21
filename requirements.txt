@@ -1,0 +1,6 @@
+flask
+gunicorn
+pypdf
+pymupdf
+opencv-python-headless
+rapidocr_onnxruntime
