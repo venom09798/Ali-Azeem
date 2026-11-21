@@ -1,3 +1,5 @@
 flask
 gunicorn
 pypdf
+pymupdf
+rapidocr-onnxruntime
