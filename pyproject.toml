@@ -1,12 +1,10 @@
 [project]
-name = "invoice-ocr"
+name = "invoice-api"
 version = "0.1.0"
 requires-python = ">=3.10"
 dependencies = [
     "flask",
     "pypdf",
-    "pymupdf",
-    "rapidocr-onnxruntime",
 ]
 
 [tool.vercel]
