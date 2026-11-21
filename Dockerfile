@@ -10,8 +10,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt \
-    && pip uninstall -y opencv-python || true \
-    && pip install --no-cache-dir --no-deps opencv-python-headless
+    && pip uninstall -y opencv-python opencv-contrib-python || true \
+    && pip install --no-cache-dir --force-reinstall opencv-python-headless
 
 COPY . .
 
